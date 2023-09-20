@@ -1,4 +1,3 @@
-Cara kerja konsistensi data akan bervariasi sesuai dengan model yang digunakan dalam sistem terdistribusi. Pemilihan model konsistensi harus mempertimbangkan kebutuhan aplikasi, kinerja yang diharapkan, dan toleransi terhadap kesalahan dalam lingkungan tertentu.
 Menjaga konsistensi data dalam sistem terdistribusi adalah tugas yang penting dan kompleks. Cara Anda menjaga konsistensi data akan sangat tergantung pada model konsistensi yang Anda gunakan, kebutuhan aplikasi, dan infrastruktur sistem. Berikut beberapa strategi yang dapat membantu Anda menjaga konsistensi data:
 1.	Pilih Model Konsistensi yang Sesuai:
 •	Pilihan model konsistensi yang sesuai dengan kebutuhan aplikasi adalah langkah pertama yang penting. Jika aplikasi Anda memerlukan konsistensi kuat, maka Anda harus memilih model yang mendukung konsistensi kuat. Jika kinerja adalah prioritas, Anda mungkin akan memilih model konsistensi yang lebih longgar.
