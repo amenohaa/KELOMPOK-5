@@ -24,3 +24,19 @@ Konsistensi Data adalah hal yang mengacu pada tingkat keseragaman atau kekonsist
 Konsistensi data dalam konteks pengembangan perangkat lunak mengacu pada keadaan di mana data dijaga agar tetap benar, akurat, dan sesuai dengan aturan atau kebijakan yang telah ditetapkan. Ini adalah aspek penting dalam pengembangan aplikasi, terutama ketika ada banyak operasi yang melibatkan manipulasi data.
 
 
+Konsistensi data adalah salah satu aspek penting dalam pengelolaan informasi dan database. Ini mengacu pada keadaan di mana data dalam sistem atau basis data selalu berada dalam keadaan yang benar, tepat, dan sesuai dengan aturan, standar, dan konvensi yang berlaku. Konsistensi data penting karena data yang tidak konsisten dapat mengakibatkan informasi yang salah, ketidakpercayaan pengguna, dan masalah dalam pengambilan keputusan. Berikut adalah beberapa materi yang terkait dengan konsistensi data:
+
+1. Ketidakberubahannya (Immutability): Data harus diatur sedemikian rupa sehingga setelah data dimasukkan ke dalam sistem atau basis data, itu tidak dapat diubah secara sembarangan tanpa melalui prosedur yang terkendali. Ini meminimalkan kesalahan data yang dapat terjadi karena perubahan tidak sah.
+2. Kepatuhan Aturan Bisnis: Data harus mematuhi aturan bisnis yang berlaku. Ini mencakup validitas data, batasan data, dan penggunaan aturan validasi untuk memastikan data selalu sesuai dengan standar yang ditetapkan.
+3. Keseragaman Format: Data harus memiliki format yang seragam. Misalnya, format tanggal yang digunakan harus konsisten di seluruh sistem atau basis data, seperti "dd/mm/yyyy" atau "yyyy-mm-dd".
+4. Keseragaman Nilai: Nilai-nilai yang digunakan dalam data harus konsisten. Sebagai contoh, jika ada kolom yang menyimpan jenis kelamin, hanya boleh ada dua nilai yang sah, yaitu "Laki-laki" dan "Perempuan". Tidak boleh ada nilai seperti "Pria" atau "Wanita".
+5. Integritas Referensial: Dalam basis data yang terhubung, seperti basis data relasional, integritas referensial harus dijaga. Ini berarti bahwa semua referensi antar tabel harus valid, dan tidak boleh ada referensi ke data yang tidak ada atau data yang telah dihapus.
+6. Pembaruan dan Penghapusan Data: Pembaruan dan penghapusan data harus dilakukan dengan hati-hati dan terdokumentasi. Ini untuk memastikan bahwa data yang dihapus tidak "hilang" secara tiba-tiba dan pembaruan data mematuhi aturan bisnis.
+7. Audit dan Log: Perekaman aktivitas pada data, seperti log perubahan, dapat membantu memantau dan mendeteksi pelanggaran konsistensi data.
+8. Pemulihan Data (Data Recovery): Mempersiapkan prosedur pemulihan data yang baik adalah bagian penting dari menjaga konsistensi data. Ini melibatkan cadangan data yang teratur dan rencana pemulihan bencana.
+9. Keamanan Data: Perlindungan data dari akses yang tidak sah juga berkontribusi pada konsistensi data. Upaya keamanan termasuk penggunaan izin akses yang tepat dan penggunaan enkripsi data yang sensitif.
+10. Pemantauan dan Pengawasan: Menerapkan sistem pemantauan dan pengawasan dapat membantu mendeteksi masalah konsistensi data dengan cepat sehingga tindakan perbaikan dapat diambil.
+Penting untuk diketahui bahwa konsistensi data bukan hanya tanggung jawab dari sistem teknologi informasi, tetapi juga melibatkan praktik manajemen data yang baik dan kepatuhan dari orang-orang yang menggunakan dan memelihara data tersebut. Konsistensi data merupakan fondasi penting dalam mendukung keputusan yang baik dan operasi yang efisien dalam berbagai jenis organisasi.
+
+
+
