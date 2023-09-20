@@ -1,4 +1,4 @@
-# KELOMPOK-5
+ # KELOMPOK-5
 SISTER
 
 Titik kunci yang mewakili tingkat konsistensi data:
@@ -19,4 +19,8 @@ Konsistensi Data adalah hal yang mengacu pada tingkat keseragaman atau kekonsist
   d. Session Consistency (Konsistensi Sesuai Sesi): Konsistensi ini berkaitan dengan konsistensi dalam konteks sesi pengguna. Selama sesi pengguna tertentu, pengguna akan        melihat operasi mereka sendiri dalam urutan yang konsisten, tetapi tidak perlu konsisten dengan operasi pengguna lain.
   
   e. Read Your Writes (Baca Tulisan Anda): Dalam model ini, pengguna akan selalu melihat hasil tulisan mereka sendiri saat mereka membaca data. Meskipun operasi-operasi          pengguna lain mungkin belum terlihat, operasi pengguna sendiri harus terlihat.
+
+  
+Konsistensi data dalam konteks pengembangan perangkat lunak mengacu pada keadaan di mana data dijaga agar tetap benar, akurat, dan sesuai dengan aturan atau kebijakan yang telah ditetapkan. Ini adalah aspek penting dalam pengembangan aplikasi, terutama ketika ada banyak operasi yang melibatkan manipulasi data.
+
 
